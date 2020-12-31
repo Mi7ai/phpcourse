@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body bgcolor="gray">
     <h1>TASK: VARIABLES</h1>
     <?php
     $name = "Mihai";
