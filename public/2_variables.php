@@ -42,6 +42,12 @@
     echo "<p>PI: ". PI . "</p>";
     echo "<p>Is Pi defined? ". defined("PI") . "</p>";
     ?>
+
+    <h1>TASK: PHP BUILT-IN FUNCTIONS</h1>
+    <?php
+    echo "<p>Max Integer Value: ". PHP_INT_MAX . "</p>";
+    echo "<p>Operating System: ". PHP_OS . "</p>";
+    ?>
 </body>
 </html>
 
