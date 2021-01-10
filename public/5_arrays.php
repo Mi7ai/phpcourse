@@ -124,6 +124,39 @@
     echo "<p>Name: ". $person["name"] ."</p>";
     echo "<p>Hobby: ". $person["hobby"] ."</p>";
 
+    echo "<pre>";
+    echo "Array keys";
+    echo var_dump(array_keys($person));
+    echo "</pre>";
+
+    echo "<pre>";
+    echo "Array values";
+    echo var_dump(array_values($person));
+    echo "</pre>";
+
+    echo "<pre>";
+    echo "Array sort by keys";
+    ksort($person);
+    echo var_dump($person);
+    echo "</pre>";
+
+    echo "<pre>";
+    echo "Array sort by value";
+    asort($person);
+    echo var_dump($person);
+    echo "</pre>";
+
+    ?>
+    <h1>TASK: 2 DIMENSIONAL ASSOCIATIVE ARRAY</h1>
+    <?php
+
+    $persons = [
+        ["name" => "Mihai","hobby" => "Praduiala"],
+        ["name" => "Gabi","hobby" => "Barosan"],
+    ];
+    echo "<pre>";
+    echo var_dump($persons);
+    echo "</pre>";
     ?>
 </body>
 </html>
