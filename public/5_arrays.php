@@ -115,6 +115,16 @@
     })
     ?>
 
+    <h1>TASK: ASSOCIATIVE ARRAY</h1>
+    <?php
+    $person = [
+            "name" => "Mihai",
+            "hobby" => "Praduiala",
+    ];
+    echo "<p>Name: ". $person["name"] ."</p>";
+    echo "<p>Hobby: ". $person["hobby"] ."</p>";
+
+    ?>
 </body>
 </html>
 
